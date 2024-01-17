@@ -70,3 +70,4 @@ router.get('/get/post/:id', (req, res, next) => {
 // Get comments by user id
 router.get('/get/user/:id', (req, res, next) => {
     Comment.getCommentBy
+});
